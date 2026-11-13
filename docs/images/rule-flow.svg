@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="'Noto Sans CJK KR','Malgun Gothic',sans-serif">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a8886"/></marker>
+  </defs>
+  <rect width="1200" height="560" rx="10" fill="#1b1a19"/>
+  <text x="40" y="48" font-size="20" font-weight="700" fill="#ffffff">새 메일이 도착했을 때 규칙 처리 순서</text>
+  <text x="40" y="74" font-size="13" fill="#a19f9d">How an incoming email moves through the rules (top → bottom)</text>
+
+  <!-- incoming -->
+  <rect x="40" y="110" width="170" height="64" rx="8" fill="#0f6cbd"/>
+  <text x="125" y="138" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">새 메일 수신</text>
+  <text x="125" y="160" font-size="12" text-anchor="middle" fill="#dbe9f7">New email</text>
+  <line x1="210" y1="142" x2="262" y2="142" stroke="#8a8886" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 1 -->
+  <rect x="266" y="96" width="270" height="92" rx="8" fill="#292827" stroke="#4a4846"/>
+  <text x="282" y="120" font-size="12" fill="#a19f9d">① 맨 위 규칙</text>
+  <text x="282" y="142" font-size="14" font-weight="700" fill="#fff">해외 수입·통관 메일</text>
+  <text x="282" y="162" font-size="12" fill="#c8c6c4">제목: 선적·B/L·수입신고·통관 …</text>
+  <text x="282" y="179" font-size="12" fill="#c8c6c4">+ 받는 사람 줄에 내 이름 없음 → 읽음</text>
+  <line x1="536" y1="142" x2="588" y2="142" stroke="#8a8886" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 2 -->
+  <rect x="592" y="96" width="270" height="92" rx="8" fill="#292827" stroke="#4a4846"/>
+  <text x="608" y="120" font-size="12" fill="#a19f9d">② 분류 규칙 8개</text>
+  <text x="608" y="142" font-size="14" font-weight="700" fill="#fff">제목 키워드 → 범주 태그</text>
+  <text x="608" y="162" font-size="12" fill="#c8c6c4">한 메일에 여러 범주 가능</text>
+  <text x="608" y="179" font-size="12" fill="#c8c6c4">다음 규칙으로 계속 진행</text>
+  <line x1="862" y1="142" x2="914" y2="142" stroke="#8a8886" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 3 -->
+  <rect x="918" y="96" width="242" height="92" rx="8" fill="#292827" stroke="#4a4846"/>
+  <text x="934" y="120" font-size="12" fill="#a19f9d">③ 해외 발신자 규칙</text>
+  <text x="934" y="142" font-size="14" font-weight="700" fill="#fff">해외 공급사·포워더</text>
+  <text x="934" y="162" font-size="12" fill="#c8c6c4">받는 사람 줄에 내 이름 없음</text>
+  <text x="934" y="179" font-size="12" fill="#c8c6c4">→ 읽음 + 범주 지우기</text>
+
+  <line x1="1039" y1="188" x2="1039" y2="240" stroke="#8a8886" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- step 4 -->
+  <rect x="640" y="244" width="520" height="80" rx="8" fill="#292827" stroke="#4a4846"/>
+  <text x="656" y="268" font-size="12" fill="#a19f9d">④ 기존 업체별 폴더 규칙 (원래 있던 규칙, 이동 위치는 그대로)</text>
+  <text x="656" y="292" font-size="14" font-weight="700" fill="#fff">발신자별로 공급사 폴더로 이동</text>
+  <text x="656" y="312" font-size="12" fill="#c8c6c4">국내 공급사 폴더 · 해외 공급사/포워더 폴더 · 세금계산서 폴더</text>
+
+  <!-- category chips -->
+  <text x="40" y="270" font-size="14" font-weight="700" fill="#fff">8개 범주</text>
+  <g font-size="12" fill="#fff">
+    <rect x="40" y="286" width="118" height="26" rx="4" fill="#d13438"/><text x="99" y="304" text-anchor="middle">납기·입고 일정</text>
+    <rect x="166" y="286" width="118" height="26" rx="4" fill="#ca5010"/><text x="225" y="304" text-anchor="middle">소요량·Forecast</text>
+    <rect x="292" y="286" width="92" height="26" rx="4" fill="#4f6bed"/><text x="338" y="304" text-anchor="middle">견적·개발</text>
+    <rect x="392" y="286" width="118" height="26" rx="4" fill="#498205"/><text x="451" y="304" text-anchor="middle">규제·인증 서류</text>
+    <rect x="40" y="320" width="60" height="26" rx="4" fill="#c19c00"/><text x="70" y="338" text-anchor="middle" fill="#1b1a19">발주</text>
+    <rect x="108" y="320" width="148" height="26" rx="4" fill="#8e562e"/><text x="182" y="338" text-anchor="middle">입고처리·거래명세서</text>
+    <rect x="264" y="320" width="126" height="26" rx="4" fill="#8a8886"/><text x="327" y="338" text-anchor="middle">정산·세금계산서</text>
+    <rect x="398" y="320" width="100" height="26" rx="4" fill="#8764b8"/><text x="448" y="338" text-anchor="middle">품질·클레임</text>
+  </g>
+
+  <!-- results -->
+  <line x1="40" y1="380" x2="1160" y2="380" stroke="#3b3a39"/>
+  <text x="40" y="414" font-size="14" font-weight="700" fill="#fff">결과 · Outcome</text>
+  <g font-size="13">
+    <rect x="40" y="432" width="360" height="96" rx="8" fill="#203a26"/>
+    <text x="58" y="460" font-weight="700" fill="#9fd89f">국내 공급사·사내 메일</text>
+    <text x="58" y="484" fill="#d2d0ce">업체 폴더로 이동 + 요청 유형 범주</text>
+    <text x="58" y="506" fill="#a19f9d">Domestic vendor / internal: filed + tagged</text>
+
+    <rect x="420" y="432" width="360" height="96" rx="8" fill="#2b2a29"/>
+    <text x="438" y="460" font-weight="700" fill="#c8c6c4">해외 메일 (참조만)</text>
+    <text x="438" y="484" fill="#d2d0ce">자동 읽음, 범주 없음, 폴더로 이동</text>
+    <text x="438" y="506" fill="#a19f9d">Overseas, CC only: auto-read, no tag</text>
+
+    <rect x="800" y="432" width="360" height="96" rx="8" fill="#2b4b6a"/>
+    <text x="818" y="460" font-weight="700" fill="#9cc8f2">해외 메일 (나에게 직접)</text>
+    <text x="818" y="484" fill="#d2d0ce">읽지 않음 유지 → 놓치지 않음</text>
+    <text x="818" y="506" fill="#a19f9d">Overseas, To: me — stays unread</text>
+  </g>
+</svg>

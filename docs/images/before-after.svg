@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" font-family="'Noto Sans CJK KR','Malgun Gothic',sans-serif">
+  <rect width="1200" height="360" rx="10" fill="#1b1a19"/>
+  <text x="40" y="48" font-size="20" font-weight="700" fill="#ffffff">정리 전 · 후 · Before / After</text>
+
+  <g>
+    <rect x="40" y="78" width="260" height="240" rx="10" fill="#292827"/>
+    <text x="60" y="110" font-size="13" fill="#a19f9d">받은 편지함 읽지 않음</text>
+    <text x="60" y="128" font-size="11" fill="#8a8886">Inbox unread</text>
+    <text x="60" y="190" font-size="40" font-weight="700" fill="#a19f9d">1,464</text>
+    <text x="60" y="222" font-size="16" fill="#8a8886">↓</text>
+    <text x="60" y="280" font-size="48" font-weight="700" fill="#4f9de0">164</text>
+
+    <rect x="320" y="78" width="260" height="240" rx="10" fill="#292827"/>
+    <text x="340" y="110" font-size="13" fill="#a19f9d">오래된 미확인 메일 정리</text>
+    <text x="340" y="128" font-size="11" fill="#8a8886">Old unread cleared (2개월 이전)</text>
+    <text x="340" y="215" font-size="48" font-weight="700" fill="#4f9de0">약 2,000</text>
+    <text x="340" y="250" font-size="13" fill="#c8c6c4">건 읽음 처리 · 삭제 0건</text>
+    <text x="340" y="272" font-size="11" fill="#8a8886">marked read, nothing deleted</text>
+
+    <rect x="600" y="78" width="260" height="240" rx="10" fill="#292827"/>
+    <text x="620" y="110" font-size="13" fill="#a19f9d">해외 폴더 정리</text>
+    <text x="620" y="128" font-size="11" fill="#8a8886">Overseas folders cleaned</text>
+    <text x="620" y="215" font-size="48" font-weight="700" fill="#4f9de0">22개</text>
+    <text x="620" y="250" font-size="13" fill="#c8c6c4">나에게 직접 온 메일만 남김</text>
+    <text x="620" y="272" font-size="11" fill="#8a8886">only To: me stays unread</text>
+
+    <rect x="880" y="78" width="280" height="240" rx="10" fill="#292827"/>
+    <text x="900" y="110" font-size="13" fill="#a19f9d">규칙</text>
+    <text x="900" y="128" font-size="11" fill="#8a8886">Rules</text>
+    <text x="900" y="190" font-size="15" fill="#c8c6c4">기존 규칙 분석</text><text x="1140" y="190" font-size="22" font-weight="700" text-anchor="end" fill="#e1dfdd">315</text>
+    <text x="900" y="230" font-size="15" fill="#c8c6c4">새 규칙</text><text x="1140" y="230" font-size="22" font-weight="700" text-anchor="end" fill="#4f9de0">10</text>
+    <text x="900" y="270" font-size="15" fill="#c8c6c4">설정 변경</text><text x="1140" y="270" font-size="22" font-weight="700" text-anchor="end" fill="#e1dfdd">56</text>
+  </g>
+</svg>

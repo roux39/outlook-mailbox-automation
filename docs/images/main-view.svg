@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" font-family="'Noto Sans CJK KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+  <rect width="1200" height="680" rx="10" fill="#1b1a19"/>
+  <rect width="1200" height="44" rx="10" fill="#0f6cbd"/>
+  <rect y="34" width="1200" height="10" fill="#0f6cbd"/>
+  <text x="20" y="28" font-size="15" font-weight="700" fill="#ffffff">Outlook</text>
+  <rect x="380" y="10" width="440" height="24" rx="4" fill="#ffffff" opacity="0.18"/>
+  <text x="394" y="27" font-size="12" fill="#ffffff" opacity="0.85">검색</text>
+
+  <!-- left pane -->
+  <rect x="0" y="44" width="250" height="636" fill="#252423"/>
+  <text x="18" y="74" font-size="13" font-weight="700" fill="#d2d0ce">∨  즐겨찾기</text>
+  <g font-size="12.5" fill="#e1dfdd">
+    <text x="34" y="100">받은 편지함</text><text x="232" y="100" text-anchor="end" fill="#4f9de0" font-weight="700">164</text>
+    <path d="M34 115 h11 l5 5 -5 5 h-11z" fill="#d13438"/><text x="58" y="125">납기·입고 일정</text><text x="232" y="125" text-anchor="end" fill="#4f9de0" font-weight="700">6</text>
+    <path d="M34 140 h11 l5 5 -5 5 h-11z" fill="#ca5010"/><text x="58" y="150">소요량·Forecast</text><text x="232" y="150" text-anchor="end" fill="#4f9de0" font-weight="700">3</text>
+    <rect x="28" y="158" width="216" height="24" rx="4" fill="#3b3a39"/>
+    <path d="M34 165 h11 l5 5 -5 5 h-11z" fill="#4f6bed"/><text x="58" y="175" font-weight="700" fill="#ffffff">견적·개발</text><text x="232" y="175" text-anchor="end" fill="#4f9de0" font-weight="700">30</text>
+    <path d="M34 190 h11 l5 5 -5 5 h-11z" fill="#498205"/><text x="58" y="200">규제·인증 서류</text><text x="232" y="200" text-anchor="end" fill="#4f9de0" font-weight="700">14</text>
+    <path d="M34 215 h11 l5 5 -5 5 h-11z" fill="#c19c00"/><text x="58" y="225">발주</text><text x="232" y="225" text-anchor="end" fill="#4f9de0" font-weight="700">14</text>
+    <path d="M34 240 h11 l5 5 -5 5 h-11z" fill="#8e562e"/><text x="58" y="250">입고처리·거래명세서</text><text x="232" y="250" text-anchor="end" fill="#4f9de0" font-weight="700">5</text>
+    <path d="M34 265 h11 l5 5 -5 5 h-11z" fill="#8a8886"/><text x="58" y="275">정산·세금계산서</text><text x="232" y="275" text-anchor="end" fill="#4f9de0" font-weight="700">2</text>
+    <path d="M34 290 h11 l5 5 -5 5 h-11z" fill="#8764b8"/><text x="58" y="300">품질·클레임</text><text x="232" y="300" text-anchor="end" fill="#4f9de0" font-weight="700">4</text>
+  </g>
+  <line x1="16" y1="318" x2="234" y2="318" stroke="#3b3a39"/>
+  <text x="18" y="342" font-size="13" font-weight="700" fill="#d2d0ce">∨  받은 편지함</text>
+  <g font-size="12.5" fill="#c8c6c4">
+    <text x="40" y="368">▫ 한빛정밀(주)</text><text x="232" y="368" text-anchor="end" fill="#4f9de0">2</text>
+    <text x="40" y="392">▫ 대성볼트</text>
+    <text x="40" y="416">▫ 미래패스너(주)</text><text x="232" y="416" text-anchor="end" fill="#4f9de0">1</text>
+    <text x="40" y="440">▫ 세진금속</text>
+    <text x="40" y="464">▫ *세금계산서</text>
+    <text x="40" y="496" fill="#8a8886">▫ [해외] Supplier A</text>
+    <text x="40" y="520" fill="#8a8886">▫ [해외] Supplier B</text>
+    <text x="40" y="544" fill="#8a8886">▫ [해외] Forwarder C</text>
+    <text x="40" y="568" fill="#8a8886">▫ [해외] Forwarder D</text>
+  </g>
+  <text x="18" y="610" font-size="11" fill="#8a8886">해외 폴더: 나에게 직접 온 메일만</text>
+  <text x="18" y="626" font-size="11" fill="#8a8886">읽지 않음으로 남음</text>
+
+  <!-- message list -->
+  <rect x="250" y="44" width="440" height="636" fill="#201f1e"/>
+  <path d="M266 64 h11 l5 5 -5 5 h-11z" fill="#4f6bed"/>
+  <text x="290" y="74" font-size="14" font-weight="700" fill="#ffffff">견적·개발</text>
+  <text x="674" y="74" font-size="11.5" text-anchor="end" fill="#8a8886">모든 폴더 · 범주별 보기</text>
+  <line x1="250" y1="88" x2="690" y2="88" stroke="#3b3a39"/>
+
+  <rect x="250" y="89" width="440" height="72" fill="#2b4b6a"/>
+  <rect x="250" y="89" width="4" height="72" fill="#4f9de0"/>
+  <text x="268" y="110" font-size="13" font-weight="700" fill="#ffffff">한빛정밀(주) 영업팀</text>
+  <text x="676" y="110" font-size="11.5" text-anchor="end" fill="#ffffff">오전 9:12</text>
+  <text x="268" y="129" font-size="12.5" font-weight="700" fill="#9cc8f2">[견적 요청] HB-M6X20-ZN 단가 견적 요청의 건</text>
+  <rect x="268" y="138" width="58" height="16" rx="3" fill="#4f6bed"/><text x="297" y="150" font-size="10.5" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <text x="334" y="150" font-size="11.5" fill="#c8c6c4">안녕하세요, 요청하신 품번 견적서 송부…</text>
+
+  <line x1="268" y1="161" x2="690" y2="161" stroke="#3b3a39"/>
+  <text x="268" y="182" font-size="13" fill="#e1dfdd">미래패스너(주)</text>
+  <text x="676" y="182" font-size="11.5" text-anchor="end" fill="#a19f9d">어제</text>
+  <text x="268" y="201" font-size="12.5" fill="#e1dfdd">RE: WS-08-FLAT 국산화 샘플 제작 일정 문의</text>
+  <rect x="268" y="210" width="58" height="16" rx="3" fill="#4f6bed"/><text x="297" y="222" font-size="10.5" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <text x="334" y="222" font-size="11.5" fill="#a19f9d">샘플은 다음 주 화요일 출고 예정…</text>
+
+  <line x1="268" y1="233" x2="690" y2="233" stroke="#3b3a39"/>
+  <rect x="250" y="234" width="4" height="72" fill="#4f9de0"/>
+  <text x="268" y="254" font-size="13" font-weight="700" fill="#ffffff">영업팀 김OO</text>
+  <text x="676" y="254" font-size="11.5" text-anchor="end" fill="#a19f9d">화 11-10</text>
+  <text x="268" y="273" font-size="12.5" font-weight="700" fill="#9cc8f2">신규 고객 RFQ 관련 단가 및 발주 일정 확인</text>
+  <rect x="268" y="282" width="58" height="16" rx="3" fill="#4f6bed"/><text x="297" y="294" font-size="10.5" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <rect x="332" y="282" width="40" height="16" rx="3" fill="#c19c00"/><text x="352" y="294" font-size="10.5" text-anchor="middle" fill="#1b1a19">발주</text>
+  <text x="380" y="294" font-size="11.5" fill="#a19f9d">고객사 요청 수량 기준 단가…</text>
+
+  <line x1="268" y1="305" x2="690" y2="305" stroke="#3b3a39"/>
+  <text x="268" y="326" font-size="13" fill="#e1dfdd">대성볼트</text>
+  <text x="676" y="326" font-size="11.5" text-anchor="end" fill="#a19f9d">월 11-09</text>
+  <text x="268" y="345" font-size="12.5" fill="#e1dfdd">NT-M8-SUS 도면 및 시제품 검토 요청</text>
+  <rect x="268" y="354" width="58" height="16" rx="3" fill="#4f6bed"/><text x="297" y="366" font-size="10.5" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <text x="334" y="366" font-size="11.5" fill="#a19f9d">수정 도면 첨부드립니다…</text>
+
+  <line x1="268" y1="377" x2="690" y2="377" stroke="#3b3a39"/>
+  <text x="268" y="398" font-size="13" fill="#e1dfdd">세진금속</text>
+  <text x="676" y="398" font-size="11.5" text-anchor="end" fill="#a19f9d">금 11-06</text>
+  <text x="268" y="417" font-size="12.5" fill="#e1dfdd">SC-4X12-BK 2027년 단가 및 대금 정산 협의</text>
+  <rect x="268" y="426" width="58" height="16" rx="3" fill="#4f6bed"/><text x="297" y="438" font-size="10.5" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <rect x="332" y="426" width="88" height="16" rx="3" fill="#8a8886"/><text x="376" y="438" font-size="10.5" text-anchor="middle" fill="#ffffff">정산·세금계산서</text>
+  <text x="428" y="438" font-size="11.5" fill="#a19f9d">원자재 가격 변동에 따른…</text>
+
+  <line x1="268" y1="449" x2="690" y2="449" stroke="#3b3a39"/>
+  <text x="268" y="470" font-size="13" fill="#e1dfdd">한빛정밀(주) 영업팀</text>
+  <text x="676" y="470" font-size="11.5" text-anchor="end" fill="#a19f9d">수 11-04</text>
+  <text x="268" y="489" font-size="12.5" fill="#e1dfdd">RE: HB-M10X40-ZN 개발 착수 및 샘플 요청</text>
+  <rect x="268" y="498" width="58" height="16" rx="3" fill="#4f6bed"/><text x="297" y="510" font-size="10.5" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <text x="334" y="510" font-size="11.5" fill="#a19f9d">샘플 5EA 준비 완료…</text>
+
+  <line x1="268" y1="521" x2="690" y2="521" stroke="#3b3a39"/>
+  <text x="268" y="542" font-size="13" fill="#e1dfdd">미래패스너(주)</text>
+  <text x="676" y="542" font-size="11.5" text-anchor="end" fill="#a19f9d">10-30</text>
+  <text x="268" y="561" font-size="12.5" fill="#e1dfdd">RV-3.2X8-AL 견적 회신</text>
+  <rect x="268" y="570" width="58" height="16" rx="3" fill="#4f6bed"/><text x="297" y="582" font-size="10.5" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <text x="334" y="582" font-size="11.5" fill="#a19f9d">요청하신 수량별 단가표…</text>
+  <line x1="268" y1="593" x2="690" y2="593" stroke="#3b3a39"/>
+
+  <!-- reading pane -->
+  <rect x="690" y="44" width="510" height="636" fill="#292827"/>
+  <text x="712" y="80" font-size="16" font-weight="700" fill="#ffffff">[견적 요청] HB-M6X20-ZN 단가 견적 요청의 건</text>
+  <circle cx="728" cy="116" r="16" fill="#4f6bed"/><text x="728" y="121" font-size="12" text-anchor="middle" fill="#ffffff">한</text>
+  <text x="754" y="112" font-size="13" font-weight="700" fill="#e1dfdd">한빛정밀(주) 영업팀</text>
+  <text x="754" y="130" font-size="11.5" fill="#a19f9d">받는 사람: 구매팀 담당자</text>
+  <rect x="712" y="146" width="62" height="18" rx="3" fill="#4f6bed"/><text x="743" y="159" font-size="11" text-anchor="middle" fill="#ffffff">견적·개발</text>
+  <g fill="#3b3a39">
+    <rect x="712" y="186" width="420" height="10" rx="3"/>
+    <rect x="712" y="206" width="380" height="10" rx="3"/>
+    <rect x="712" y="226" width="440" height="10" rx="3"/>
+    <rect x="712" y="246" width="300" height="10" rx="3"/>
+  </g>
+  <rect x="712" y="276" width="456" height="118" rx="4" fill="none" stroke="#3b3a39"/>
+  <g font-size="11.5" fill="#c8c6c4">
+    <text x="726" y="298">품번</text><text x="860" y="298">수량</text><text x="960" y="298">단가</text><text x="1060" y="298">납기</text>
+  </g>
+  <line x1="712" y1="308" x2="1168" y2="308" stroke="#3b3a39"/>
+  <g font-size="11.5" fill="#a19f9d">
+    <text x="726" y="330">HB-M6X20-ZN</text><text x="860" y="330">50,000</text><text x="960" y="330">(가상)</text><text x="1060" y="330">2026-12-10</text>
+    <text x="726" y="354">HB-M8X30-ZN</text><text x="860" y="354">30,000</text><text x="960" y="354">(가상)</text><text x="1060" y="354">2026-12-17</text>
+    <text x="726" y="378">HB-M10X40-ZN</text><text x="860" y="378">20,000</text><text x="960" y="378">(가상)</text><text x="1060" y="378">2026-12-24</text>
+  </g>
+  <g fill="#3b3a39">
+    <rect x="712" y="420" width="400" height="10" rx="3"/>
+    <rect x="712" y="440" width="260" height="10" rx="3"/>
+  </g>
+  <rect x="712" y="600" width="456" height="56" rx="6" fill="#201f1e" stroke="#3b3a39"/>
+  <text x="730" y="624" font-size="12" fill="#c8c6c4">새 메일은 규칙이 제목을 읽고 자동으로 범주를 붙입니다.</text>
+  <text x="730" y="644" font-size="12" fill="#8a8886">모든 이름·품번·내용은 예시용 가상 데이터입니다.</text>
+</svg>
